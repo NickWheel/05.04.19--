@@ -15,6 +15,11 @@ h1 {
     line-height: 85px;
     font-weight: bold;
 }
+h2 {
+    font-size: 45px;
+    line-height: 74px;
+    color: #333333;
+}
 h3 {
     font-size: 22px;
     color: #333;
@@ -47,6 +52,7 @@ nav {
     position: relative;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 90%;
     margin: 30px auto;
 }
@@ -63,9 +69,11 @@ nav {
 }
 .nav_right {
     width: 50%;
+    flex-wrap: wrap;
 }
 .nav_right a {
     margin-right: 15px;
+    margin-top: 10px;
     color: #333;
     transition: 0.3s;
 }
@@ -76,7 +84,7 @@ nav {
     color: #5C9FF9;
 }
 .nav_right a:nth-last-child(1) {
-    background: linear-gradient(285.05deg, #5C9FF9 -16.34%, #0058DC 97.2%), #C4C4C4;
+    background: linear-gradient(270deg, #5C9FF9 -16.34%, #0058DC 97.2%);
     border-radius: 3px;
     margin-right: 0;
     padding: 15px 25px;
@@ -101,7 +109,7 @@ header .container {
 .header_text {
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding-top: 320px;
 }
 
@@ -121,6 +129,7 @@ header .container {
     padding-bottom: 320px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     /* justify-content: space-between; */
 }
 .header_slider_images {
@@ -128,10 +137,12 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .header_slider_images div {
     height: 10px;
     width: 10px;
+    margin-top: 10px;
     box-sizing: border-box;
     border: 1px solid #333333;
     border-radius: 50%;
@@ -141,6 +152,7 @@ header .container {
 }
 .header_slider_images img {
     cursor: pointer;
+    margin-top: 10px;
 }
 .header_slider_images div:hover {
     /* background: linear-gradient(273.45deg, #5C9FF9 -16.34%, #0058DC 97.2%), #FFFFFF; */
@@ -151,32 +163,39 @@ header .container {
     margin-right: 40px;
 }
 
-header button {
+.more_info {
     position: relative;
-    background: linear-gradient(284.96deg, #5C9FF9 -16.34%, #0058DC 97.2%), #C4C4C4;
+    background: linear-gradient(284.96deg, #5C9FF9 -16.34%, #0058DC 97.2%);
     min-height: 20px;
-    padding: 20px 80px 20px 40px;
+    padding: 15px 60px 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.6;
     transition: 0.3s;
 }
-header button:hover {
+.more_info:hover {
     opacity: 1;
 }
-header button p {
+.more_info p {
     font-weight: bold;
     color: #fff;
 }
-header button p::after {
+.more_info p::after {
     position: absolute;
     content: url(../img/nav_arrow.png);
-    top: 22px;
+    top: 16px;
     right: 15px;
 }
 .mouse {
     display: flex;
     margin: 0 auto;
     padding-bottom: 60px;
+    cursor: pointer;
+}
+.who_we_are .container h2:nth-child(1) {
+    margin-top: 100px;
+}
+.who_we_are {
+
 }
