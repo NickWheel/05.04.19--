@@ -116,10 +116,10 @@ header .container {
 .header_text h4 {
     margin-top: 18px;
     font-weight: normal;
-    width: 50%;
+    width: 40%;
 }
 .header_text h1 {
-    width: 50%;
+    width: 40%;
     min-width: 480px;
 }
 
@@ -167,7 +167,7 @@ header .container {
     position: relative;
     background: linear-gradient(284.96deg, #5C9FF9 -16.34%, #0058DC 97.2%);
     min-height: 20px;
-    padding: 15px 60px 15px 30px;
+    padding: 15px 100px 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -196,6 +196,61 @@ header .container {
 .who_we_are .container h2:nth-child(1) {
     margin-top: 100px;
 }
-.who_we_are {
+.who_we_are p {
+    font-size: 18px;
+}
+.who_we_are_text {
+    min-width: 300px;
+    max-width: 800px;
+}
 
+.svg_cards, .svg_cards div {
+    display: flex;
+}
+.svg_cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.svg_cards div {
+    align-items: center;
+    margin-top: 20px;
+} 
+.svg_cards div p {
+    margin-left: 21px;
+    margin-right: 21px;
+    max-width: 120px
+}
+.who_we_are .more_info {
+    margin-top: 50px;
+    border: 1.3px solid #005DE8;
+    background: rgba(0, 0, 0, 0);
+    margin-bottom: 80px;
+}
+.who_we_are .more_info p {
+    color: #005DE8;
+}
+
+.crpt_trade {
+    background: url(../img/crpt_trade_totally_accurate_bckg.png) no-repeat;
+    background-size: cover;
+}
+.crpt_trade h2 {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.crpt_trade .crpt_trade_text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+    max-width: 500px
+}
+.crpt_trade .more_info {
+    border: 1.3px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    margin-bottom: 80px;  
+}
+.crpt_trade .more_info p {
+    color: #fff;
 }
