@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+rgin: 0;
     padding: 0;
 }
 a {
@@ -253,4 +253,115 @@ header .container {
 }
 .crpt_trade .more_info p {
     color: #fff;
+}
+
+.main_directions_and_last_projects_sect {
+    padding-bottom: 100px;
+}
+.main_directions_sect h2 {
+    margin-top: 60px;
+}
+.main_directions_sect_text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+}
+.main_directions_cards_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.main_directions_card {
+    width: 240px;
+    height: 240px;
+    box-shadow: 0px 0px 33px 1px #EDEDED;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(61,135,239, 0);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main_directions_card:hover {
+    background: rgba(61,135,239, 0.7);
+}
+.main_directions_card img {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.main_directions_card img:hover {
+    opacity: 1;
+}
+.main_directions_card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last_projects_cards_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.last_projects_cards_block p {
+    color: #fff;
+    text-align: center;
+}
+.last_projects_card {
+    width: 300px;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.last_projects_card img {
+    cursor: pointer;
+} 
+.ikra {
+    background: url(../img/ikra_background.png) no-repeat;
+}
+.goa {
+    background-image: url(../img/GOA_background.png);
+}
+.music {
+    background: url(../img/music_background.png) no-repeat;
+}
+
+.last_projects_card_text_p {
+    font-size: 18px;
+    max-width: 200px;
+}
+.cases {
+    position: relative;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #005DE8;
+    cursor: pointer;
+}
+.cases::after {
+    content: url(../img/Arrow21GREAT.svg);
+    position: absolute;
+    top: 3px;
+    margin-left: 10px;
+}
+
+
+
+@media screen and (max-width: 1450px) {
+    .svg_cards, .last_projects_cards_block, .main_directions_cards_block  {
+        justify-content: center;
+    }
+    .main_directions_card, .svg_cards div, .last_projects_card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
