@@ -1,5 +1,5 @@
 * {
-rgin: 0;
+    margin: 0;
     padding: 0;
 }
 a {
@@ -363,5 +363,14 @@ header .container {
     .main_directions_card, .svg_cards div, .last_projects_card {
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .header_text h1 {
+        text-align: center;
+    }
+    .header_slider {
+        flex-direction: column;
+    }
+    .header_slider_images {
+        margin-bottom: 15px;
     }
 }
