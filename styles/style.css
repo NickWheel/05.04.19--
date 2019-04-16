@@ -294,6 +294,7 @@ header .container {
 .main_directions_card::before {
     /* background: rgba(61,135,239, 1); */
     background: linear-gradient(284.96deg, #5C9FF9 -16.34%, #0058DC 97.2%);
+    border-radius: 10px;
     position: absolute;
     transition: 0.3s;
     content: '';
